@@ -190,5 +190,25 @@ footer {
 
 @media (min-width: 1024px) {
 
-}
+    h1{
+        font-size: 48px;
+        text-align: left;
+    }
+    
+    h2{
+        font-size: 32px;
+    }
 
+    #inicio{
+        flex-direction: row;
+    }
+
+    .presentacion {
+        width: 50%;
+        text-align: left;
+    }
+
+    ul.redes {
+        margin: 32px;
+    }
+}
