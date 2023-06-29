@@ -113,6 +113,11 @@ main {
 .imagen-portada{
     width: 400px;
     border-radius: 50%;
+    cursor: pointer;
+}
+
+.imagen-portada:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 #inicio{
@@ -149,6 +154,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 50px 20px;
 }
 
 .hablemos {
@@ -166,7 +172,7 @@ ul.redes {
     margin-top: 20px;
     justify-content: space-evenly;
     align-items: center;
-    width: 400px;
+    width: 350px;
 }
 
 li.item-redes {
@@ -210,5 +216,6 @@ footer {
 
     ul.redes {
         margin: 32px;
+        width: 450px;
     }
 }
