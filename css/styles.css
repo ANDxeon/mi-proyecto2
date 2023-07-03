@@ -88,7 +88,7 @@ ul.menu {
     font-size: 20px;
 }
 
-li.item-menu {
+li.item-menu a{
     padding: 16px;
     display: inline-block;
 }
@@ -96,7 +96,7 @@ li.item-menu {
 /* NUEVO EFECTO para la clase .active y : hover */
 
 li.item-menu:hover,
-li.item-menu a.active
+li.item-menu a.active,
 a.btn:hover {
     background:rgba(176, 21, 21, 0.802);
     transition: background-color 0.3s;
@@ -218,4 +218,24 @@ footer {
         margin: 32px;
         width: 450px;
     }
+}
+
+/* TEMA OSCURO */
+
+body.dark {
+    background-color: #0f0f0f;
+    color: #fbfbfb;
+}
+
+body.dark .hablemos {
+color: #fbfbfb;
+}
+    
+body.dark header {
+    background-color: #0f0f0f;
+    color: #fbfbfb;
+}
+
+.color_icon {
+    background-color: #fbfbfb;
 }
