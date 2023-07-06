@@ -16,10 +16,15 @@ menuItems.forEach(function (item) {
 //MODO OSCURO
 const themeSwitcher = document.querySelector("#theme-switcher");
 let darkMode = false;
-const iconos = document.querySelectorAll(".redes")
+const iconos = document.querySelectorAll(".item-redes");
+//console.log(iconos);
 
 themeSwitcher.addEventListener("click", function () {
     document.body.classList.toggle("dark");
+    iconos.forEach(function(icono) {
+        icono.classList.toggle("color_icon");
+    });
+    
     darkMode = !darkMode;
 
     if (darkMode) {
