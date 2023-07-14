@@ -28,9 +28,9 @@ themeSwitcher.addEventListener("click", function () {
     darkMode = !darkMode;
 
     if (darkMode) {
-        themeSwitcher.innerHTML = "Cambiar a tema claro";
+        themeSwitcher.innerHTML = "Modo Light";
     } else {
-        themeSwitcher.innerHTML = "Cambiar a tema oscuro";
+        themeSwitcher.innerHTML = "Modo Dark";
     }
 
 });
